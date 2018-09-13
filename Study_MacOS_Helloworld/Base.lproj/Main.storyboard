@@ -57,8 +57,17 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="MQp-xi-Qaa">
+                                <rect key="frame" x="14" y="11" width="81" height="32"/>
+                                <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="UU8-Df-wyG">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="MQp-xi-Qaa" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="9jz-QM-xQS"/>
+                            <constraint firstItem="MQp-xi-Qaa" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="KXB-EZ-pub"/>
                             <constraint firstItem="d1a-ig-Bf9" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="x4l-2d-kQ8"/>
                             <constraint firstItem="d1a-ig-Bf9" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="zL4-Qd-Pag"/>
                         </constraints>
