@@ -10,16 +10,25 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var clickCountLabel: NSTextFieldCell!
+
+    var clickCount: Int = 0
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+
     }
 
     override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.
         }
+    }
+    @IBAction func onClickButton(_ sender: Any) {
+        clickCount += 1
+        clickCountLabel.stringValue = "clickCount : \(clickCount)"
     }
 
 

@@ -63,19 +63,35 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="onClickButton:" target="XfG-lQ-9wD" id="1Yd-0U-KN1"/>
+                                </connections>
                             </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OMe-ax-fTi">
+                                <rect key="frame" x="422" y="20" width="37" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="d7e-Ia-8pC">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="OMe-ax-fTi" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="59f-W5-dmW"/>
                             <constraint firstItem="MQp-xi-Qaa" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="9jz-QM-xQS"/>
                             <constraint firstItem="MQp-xi-Qaa" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="KXB-EZ-pub"/>
+                            <constraint firstAttribute="trailing" secondItem="OMe-ax-fTi" secondAttribute="trailing" constant="22" id="hGT-m7-XrB"/>
                             <constraint firstItem="d1a-ig-Bf9" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="x4l-2d-kQ8"/>
                             <constraint firstItem="d1a-ig-Bf9" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="zL4-Qd-Pag"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="clickCountLabel" destination="d7e-Ia-8pC" id="3Kd-jp-GTM"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="75" y="654.5"/>
         </scene>
     </scenes>
 </document>
