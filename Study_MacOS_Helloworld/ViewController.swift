@@ -11,6 +11,7 @@ import Cocoa
 class ViewController: NSViewController {
 
     @IBOutlet weak var clickCountLabel: NSTextFieldCell!
+    @IBOutlet weak var hellowworldLabel: NSTextFieldCell!
 
     var clickCount: Int = 0
 
@@ -18,6 +19,7 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        hellowworldLabel.stringValue = "Hellow world in viewDidLoad!";
 
     }
 

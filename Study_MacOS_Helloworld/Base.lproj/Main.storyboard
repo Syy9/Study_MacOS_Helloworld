@@ -87,6 +87,7 @@
                     </view>
                     <connections>
                         <outlet property="clickCountLabel" destination="d7e-Ia-8pC" id="3Kd-jp-GTM"/>
+                        <outlet property="hellowworldLabel" destination="t2G-Vq-s5w" id="qIP-nI-xl2"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
