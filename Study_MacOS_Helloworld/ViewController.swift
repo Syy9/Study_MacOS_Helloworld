@@ -31,6 +31,7 @@ class ViewController: NSViewController {
     @IBAction func onClickButton(_ sender: Any) {
         clickCount += 1
         clickCountLabel.stringValue = "clickCount : \(clickCount)"
+        print("click! \(clickCount)")
     }
 
 
